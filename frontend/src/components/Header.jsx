@@ -5,7 +5,7 @@ let Header = () => {
     return (
         <header className="py-5">
             <div className="container px-5 pb-5">
-                <div className="row gx-4 align-items-center">
+                <div className="row gx-5 align-items-center">
                     <div className="col-xxl-6">
                         <div className="text-center text-xxl-start">
                             <div className="lead fw-normal fw-bolder mb-4 btn btn-outline-dark">

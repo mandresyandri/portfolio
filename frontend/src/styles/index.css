@@ -3,6 +3,7 @@
 body {
     font-family: "Poppins", system-ui;
     color : #403A3A !important;
+    /* overflow-x: hidden !important; */
 }
 
 .title-color {

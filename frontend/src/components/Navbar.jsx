@@ -11,13 +11,16 @@ let NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bold">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Home</a>
+                            <a className="nav-link" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Projects</a>
+                            <a className="nav-link" href="#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                            <a className="nav-link" href="/">Projects</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/">Contact</a>
                         </li>
                     </ul>
                     <a className="btn btn-outline-dark ms-md-2" href="http://www.mandresyandri.fr/">

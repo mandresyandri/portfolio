@@ -2,11 +2,13 @@ import React from 'react';
 import Navbar from './components/Navbar.jsx';
 import Header from './components/Header.jsx';
 import About from './components/About.jsx';
+import Footer from './components/Footer.jsx';
 import AnimatedCursor from "react-animated-cursor";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <AnimatedCursor
         innerSize={8}
         outerSize={35}
@@ -32,6 +34,8 @@ function App() {
       <Navbar/>
       <Header/>
       <About />
+      <Footer/>
+      <ScrollToTop smooth className="scroll-to-top" />
     </div>
   );
 }
