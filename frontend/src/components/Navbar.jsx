@@ -1,6 +1,6 @@
 let NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <nav className="navbar navbar-expand-lg nav-bg bg-white py-3">
             <div className="container px-5">
                 <a className="navbar-brand" href="#">
                     <span>Mandresy Andri</span>
@@ -20,7 +20,9 @@ let NavBar = () => {
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
-                    <a className="btn btn-primary ms-md-3 small fw-bold" href="http://www.mandresyandri.fr/">Mon CV</a>
+                    <a className="btn btn-outline-dark ms-md-2" href="http://www.mandresyandri.fr/">
+                        <span className="small fw-bold">Mon CV</span>
+                    </a>
                 </div>
             </div>
         </nav>
