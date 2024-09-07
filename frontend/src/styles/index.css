@@ -2,12 +2,7 @@
 
 body {
     font-family: "Poppins", system-ui;
-    background-color: #FCFCFC;
-    color : #403A3A;
-}
-
-.nav-bg {
-    background-color: rgb(240, 239, 239) !important;
+    color : #403A3A !important;
 }
 
 .title-color {
@@ -17,4 +12,3 @@ body {
 .title-light {
     color: #707070;
 }
-

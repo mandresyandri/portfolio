@@ -1,6 +1,6 @@
 let NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg nav-bg bg-white py-3">
+        <nav className="navbar navbar-expand-lg bg-white py-3 border">
             <div className="container px-5">
                 <a className="navbar-brand" href="#">
                     <span className="fw-bolder">Mandresy Andri</span>
