@@ -19,9 +19,6 @@ let NavBar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="/">Projects</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/">Contact</a>
-                        </li>
                     </ul>
                     <a className="btn btn-outline-dark ms-md-2" href="http://www.mandresyandri.fr/">
                         <span className="small fw-bold">Mon CV</span>

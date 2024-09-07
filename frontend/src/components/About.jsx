@@ -9,20 +9,17 @@ let About = () => {
                         <h2 className="display-5 fw-bolder" id="about">
                             <span>À propos</span>
                         </h2>
-                        <p className="lead fw-light mb-4">
-                            Quelques informations sur moi.
-                        </p>
+                        {/* <p className="text-muted">
+                            ✋🏽 Bonjour ! Je suis <strong>Freelance Data Scientist</strong> et étudiant en <strong>Data Science et Société du Numérique</strong>
+                            Je participe à plusieurs projet mon terrain de prédilection est mon travail de bénévole au sein de <a class="text-dark" href="https://dataforgood.fr/">Data For Good</a>&nbsp;<i class="bi bi-box-arrow-up-right"></i> je participe à divers projet dans le but de <strong>promouvoir l'usage de la data pour le bien social</strong>. 
+                        </p> */}
                         <p className="text-muted">
-                            Je suis étudiant en Data Sciences et Société du Numérique, passionné par l’utilisation des données comme levier de transformation. Mon portfolio "Data for Social Empowerment" illustre ma vision : comment les données peuvent non seulement critiquer le statu quo mais aussi offrir des solutions innovantes aux défis sociaux et techniques. Explorez mes projets, allant des initiatives pour l’équité sociale aux travaux techniques issus de cours et recherches personnelles, pour découvrir comment j’allie compétences analytiques et créativité.
+                            ✋🏽 Bonjour ! Je suis <strong>Freelance Data Scientist</strong> et étudiant en <strong>Data Science et Société du Numérique</strong>.
+                            En parallèle, je suis apprenti chez Grand Paris Seine Ouest, au sein de la branche Open Data de la <strong>DIGIT</strong>. 
+                            Je contribue à divers projets data en tant que bénévole, avec <a class="text-dark" href="https://dataforgood.fr/">Data For Good</a>&nbsp;<i class="bi bi-box-arrow-up-right"></i>, dans le but de <strong>promouvoir l'usage de la data pour le bien social</strong>.
                         </p>
-                        <div className="d-flex justify-content-center fs-2 gap-4">
-                            <a className="text-black" href="https://www.linkedin.com/in/mandresy-andri/" target='_blank' rel="noreferrer">
-                                <i className="bi bi-linkedin"></i>
-                            </a>
-                            <a className="text-black" href="https://github.com/mandresyandri" target='_blank' rel="noreferrer">
-                                <i className="bi bi-github"></i>
-                            </a>
-                        </div>
+
+
                     </div>
                 </div>
             </div>

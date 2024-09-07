@@ -22,12 +22,14 @@ let Header = () => {
                                     }}
                                 />
                             </div>
-                            <h2 className="fs-3 fw-light text-muted">Mandresy ANDRIANTSOANAVALONA</h2>
+                            <h2 className="fs-3 fw-light text-muted">
+                                <span className="bi bi-person-circle"></span>
+                                <span>&nbsp;Mandresy ANDRIANTSOANAVALONA</span>
+                            </h2>
                             <h1 className="display-3 fw-bolder mb-5">
                                 <span>Data for social empowerment.</span>
                             </h1>
                             <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                {/* <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="http://www.mandresyandri.fr/"> */}
                                 <a className="btn btn-outline-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="http://www.mandresyandri.fr/">
                                     <span className="small fw-bold">Mon CV</span>
                                 </a>
